@@ -1,5 +1,5 @@
-//@import "./colors";
-//@import "./elements";
+@import "./colors";
+@import "./elements";
 
 //Configurations
 @import "~bootstrap/scss/functions";
@@ -10,7 +10,7 @@
 @import "~bootstrap/scss/utilities";
 
 // Merge the maps
-//$theme-colors: map-merge($theme-colors, $custom-colors);
+$theme-colors: map-merge($theme-colors, $custom-colors);
 
 // Layout and components
 @import "~bootstrap/scss/root";
